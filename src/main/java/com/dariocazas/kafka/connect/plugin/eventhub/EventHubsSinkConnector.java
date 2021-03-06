@@ -1,4 +1,4 @@
-package com.dariocazas.kakfa.connect.plugin.eventhub;
+package com.dariocazas.kafka.connect.plugin.eventhub;
 
 import org.apache.kafka.common.config.AbstractConfig;
 import org.apache.kafka.common.config.ConfigDef;

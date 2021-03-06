@@ -1,4 +1,4 @@
-package com.dariocazas.kakfa.connect.plugin.eventhub;
+package com.dariocazas.kafka.connect.plugin.eventhub;
 
 public class RuntimeEventHubsTaskException extends RuntimeException {
     /**

@@ -1,4 +1,4 @@
-package com.dariocazas.kakfa.connect.plugin.eventhub;
+package com.dariocazas.kafka.connect.plugin.eventhub;
 
 import com.azure.messaging.eventhubs.EventData;
 import com.azure.messaging.eventhubs.EventDataBatch;
