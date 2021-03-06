@@ -27,7 +27,7 @@ azure.eventhubs.sink.hubname=myEventHubName
 
 # Changelog
 
-## [0.1.0] - 2021/03/06
+## [v0.1.0] - 2021/03/06
 
 ### Added
 
@@ -39,6 +39,6 @@ azure.eventhubs.sink.hubname=myEventHubName
 
 
 
-[0.1.0]: https://github.com/dariocazas/eventhub-kafka-connect/releases/tag/0.1.0
+[v0.1.0]: https://github.com/dariocazas/eventhub-kafka-connect/releases/tag/v0.1.0
 
 [GCP PubSub connector]: https://github.com/GoogleCloudPlatform/pubsub/tree/master/kafka-connector
