@@ -39,6 +39,6 @@ azure.eventhubs.sink.hubname=myEventHubName
 
 
 
-[0.0.1]: https://github.com/dariocazas/eventhub-kafka-connect/releases/tag/v0.1.0
+[0.1.0]: https://github.com/dariocazas/eventhub-kafka-connect/releases/tag/0.1.0
 
 [GCP PubSub connector]: https://github.com/GoogleCloudPlatform/pubsub/tree/master/kafka-connector
