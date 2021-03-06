@@ -1,5 +1,7 @@
 # Kafka connect plugin for EventHubs
 
+[![Java CI with Maven](https://github.com/dariocazas/eventhub-kafka-connect/actions/workflows/maven.yml/badge.svg)](https://github.com/dariocazas/eventhub-kafka-connect/actions/workflows/maven.yml)
+
 ## Introduction 
 
 The state of the art for replicate data from Kafka and EventHubs is using tools like Mirror Maker or Replicator.
