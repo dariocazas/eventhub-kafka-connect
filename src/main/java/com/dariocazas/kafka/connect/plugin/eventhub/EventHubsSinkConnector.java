@@ -40,7 +40,7 @@ public class EventHubsSinkConnector extends SinkConnector {
 
     @Override
     public Class<? extends Task> taskClass() {
-        return EventHubSyncSinkTask.class;
+        return EventHubSinkTask.class;
     }
 
     @Override

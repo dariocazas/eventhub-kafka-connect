@@ -19,8 +19,8 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class EventHubSyncSinkTask extends SinkTask {
-    private static final Logger log = LoggerFactory.getLogger(EventHubSyncSinkTask.class);
+public class EventHubSinkTask extends SinkTask {
+    private static final Logger log = LoggerFactory.getLogger(EventHubSinkTask.class);
 
     private String finalConnectionString;
     private String eventHubName;
@@ -28,7 +28,7 @@ public class EventHubSyncSinkTask extends SinkTask {
     private EventHubProducerClient producer = null;
 
 
-    public EventHubSyncSinkTask() {
+    public EventHubSinkTask() {
     }
 
     @Override
@@ -44,7 +44,7 @@ public class EventHubSyncSinkTask extends SinkTask {
         try {
             producer = new EventHubClientBuilder().connectionString(finalConnectionString).buildProducerClient();
         } catch (Exception e) {
-            throw new ConnectException("Couldn't create eventhub producer for EventHubSyncSinkTask", e);
+            throw new ConnectException("Couldn't create eventhub producer for EventHubSinkTask", e);
         }
         log.info("Using default Event Hubs client for namespace '{}'", producer.getFullyQualifiedNamespace());
     }
